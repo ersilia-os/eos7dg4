@@ -1,1 +1,107 @@
 name,type,direction,description
+more_than_2_ester_groups,integer,high,Presence of unwanted functionality: > 2 ester groups
+2_halo_pyridine,integer,high,Presence of unwanted functionality: 2-halo pyridine
+acid_halide,integer,high,Presence of unwanted functionality: acid halide
+acyclic_c_c_o,integer,high,Presence of unwanted functionality: acyclic C=C-O
+acyl_cyanide,integer,high,Presence of unwanted functionality: acyl cyanide
+acyl_hydrazine,integer,high,Presence of unwanted functionality: acyl hydrazine
+aldehyde,integer,high,Presence of unwanted functionality: aldehyde
+aliphatic_long_chain,integer,high,Presence of unwanted functionality: Aliphatic long chain
+alkyl_halide,integer,high,Presence of unwanted functionality: alkyl halide
+amidotetrazole,integer,high,Presence of unwanted functionality: amidotetrazole
+aniline,integer,high,Presence of unwanted functionality: aniline
+azepane,integer,high,Presence of unwanted functionality: azepane
+azido_group,integer,high,Presence of unwanted functionality: Azido group
+azo_group,integer,high,Presence of unwanted functionality: Azo group
+azocane,integer,high,Presence of unwanted functionality: azocane
+benzidine,integer,high,Presence of unwanted functionality: benzidine
+betaketo_anhydride,integer,high,Presence of unwanted functionality: betaketo/anhydride
+biotin_analogue,integer,high,Presence of unwanted functionality: biotin analogue
+carbo_cation_anion,integer,high,Presence of unwanted functionality: Carbo cation/anion
+catechol,integer,high,Presence of unwanted functionality: catechol
+charged_oxygen_or_sulfur_atoms,integer,high,Presence of unwanted functionality: charged oxygen or sulfur atoms
+chinone_a,integer,high,Presence of unwanted functionality: chinone
+chinone_b,integer,high,Presence of unwanted functionality: chinone
+conjugated_nitrile_group,integer,high,Presence of unwanted functionality: conjugated nitrile group
+crown_ether,integer,high,Presence of unwanted functionality: crown ether
+cumarine,integer,high,Presence of unwanted functionality: cumarine
+cyanamide,integer,high,Presence of unwanted functionality: cyanamide
+cyanate_aminonitrile_thiocyanate,integer,high,Presence of unwanted functionality: cyanate/aminonitrile/thiocyanate
+cyanohydrins,integer,high,Presence of unwanted functionality: cyanohydrins
+cycloheptane_a,integer,high,Presence of unwanted functionality: cycloheptane
+cycloheptane_b,integer,high,Presence of unwanted functionality: cycloheptane
+cyclooctane_a,integer,high,Presence of unwanted functionality: cyclooctane
+cyclooctane_b,integer,high,Presence of unwanted functionality: cyclooctane
+diaminobenzene_a,integer,high,Presence of unwanted functionality: diaminobenzene
+diaminobenzene_b,integer,high,Presence of unwanted functionality: diaminobenzene
+diaminobenzene_c,integer,high,Presence of unwanted functionality: diaminobenzene
+diazo_group,integer,high,Presence of unwanted functionality: diazo group
+diketo_group,integer,high,Presence of unwanted functionality: diketo group
+disulphide,integer,high,Presence of unwanted functionality: disulphide
+enamine,integer,high,Presence of unwanted functionality: enamine
+ester_of_hobt,integer,high,Presence of unwanted functionality: ester of HOBT
+four_member_lactones,integer,high,Presence of unwanted functionality: four member lactones
+halogenated_ring_a,integer,high,Presence of unwanted functionality: halogenated ring
+halogenated_ring_b,integer,high,Presence of unwanted functionality: halogenated ring
+heavy_metal,integer,high,Presence of unwanted functionality: heavy metal
+het_c_het_not_in_ring,integer,high,Presence of unwanted functionality: het-C-het not in ring
+hydantoin,integer,high,Presence of unwanted functionality: hydantoin
+hydrazine,integer,high,Presence of unwanted functionality: hydrazine
+hydroquinone,integer,high,Presence of unwanted functionality: hydroquinone
+hydroxamic_acid,integer,high,Presence of unwanted functionality: hydroxamic acid
+imine_a,integer,high,Presence of unwanted functionality: imine
+imine_b,integer,high,Presence of unwanted functionality: imine
+iodine,integer,high,Presence of unwanted functionality: iodine
+isocyanate,integer,high,Presence of unwanted functionality: isocyanate
+isolated_alkene,integer,high,Presence of unwanted functionality: isolated alkene
+ketene,integer,high,Presence of unwanted functionality: ketene
+methylidene_1_3_dithiole,integer,high,Presence of unwanted functionality: methylidene-1 and3-dithiole
+michael_acceptor_a,integer,high,Presence of unwanted functionality: Michael acceptor
+michael_acceptor_b,integer,high,Presence of unwanted functionality: Michael acceptor
+michael_acceptor_c,integer,high,Presence of unwanted functionality: Michael acceptor
+michael_acceptor_d,integer,high,Presence of unwanted functionality: Michael acceptor
+michael_acceptor_e,integer,high,Presence of unwanted functionality: Michael acceptor
+n_oxide,integer,high,Presence of unwanted functionality: N oxide
+n_acyl_2_amino_5_mercapto_1_3_4_thiadiazole,integer,high,Presence of unwanted functionality: N-acyl-2-amino-5-mercapto-1 and3 and4-thiadiazole
+n_c_halo,integer,high,Presence of unwanted functionality: N-C-halo
+n_halo,integer,high,Presence of unwanted functionality: N-halo
+n_hydroxyl_pyridine,integer,high,Presence of unwanted functionality: N-hydroxyl pyridine
+nitro_group,integer,high,Presence of unwanted functionality: nitro group
+n_nitroso,integer,high,Presence of unwanted functionality: N-nitroso
+oxime_a,integer,high,Presence of unwanted functionality: oxime
+oxime_b,integer,high,Presence of unwanted functionality: oxime
+oxygen_nitrogen_single_bond,integer,high,Presence of unwanted functionality: Oxygen-nitrogen single bond
+perfluorinated_chain,integer,high,Presence of unwanted functionality: perfluorinated chain
+peroxide,integer,high,Presence of unwanted functionality: peroxide
+phenol_ester,integer,high,Presence of unwanted functionality: phenol ester
+phenyl_carbonate,integer,high,Presence of unwanted functionality: phenyl carbonate
+phosphor,integer,high,Presence of unwanted functionality: phosphor
+phthalimide,integer,high,Presence of unwanted functionality: phthalimide
+polycyclic_aromatic_hydrocarbon_a,integer,high,Presence of unwanted functionality: Polycyclic aromatic hydrocarbon
+polycyclic_aromatic_hydrocarbon_b,integer,high,Presence of unwanted functionality: Polycyclic aromatic hydrocarbon
+polycyclic_aromatic_hydrocarbon_c,integer,high,Presence of unwanted functionality: Polycyclic aromatic hydrocarbon
+polyene,integer,high,Presence of unwanted functionality: polyene
+quaternary_nitrogen_a,integer,high,Presence of unwanted functionality: quaternary nitrogen
+quaternary_nitrogen_b,integer,high,Presence of unwanted functionality: quaternary nitrogen
+quaternary_nitrogen_c,integer,high,Presence of unwanted functionality: quaternary nitrogen
+saponine_derivative,integer,high,Presence of unwanted functionality: saponine derivative
+silicon_halogen,integer,high,Presence of unwanted functionality: silicon halogen
+stilbene,integer,high,Presence of unwanted functionality: stilbene
+sulfinic_acid,integer,high,Presence of unwanted functionality: sulfinic acid
+sulfonic_acid_a,integer,high,Presence of unwanted functionality: Sulfonic acid
+sulfonic_acid_b,integer,high,Presence of unwanted functionality: Sulfonic acid
+sulfonyl_cyanide,integer,high,Presence of unwanted functionality: sulfonyl cyanide
+sulfur_oxygen_single_bond,integer,high,Presence of unwanted functionality: sulfur oxygen single bond
+sulphate,integer,high,Presence of unwanted functionality: sulphate
+sulphur_nitrogen_single_bond,integer,high,Presence of unwanted functionality: sulphur nitrogen single bond
+thiobenzothiazole_a,integer,high,Presence of unwanted functionality: Thiobenzothiazole
+thiobenzothiazole_b,integer,high,Presence of unwanted functionality: thiobenzothiazole
+thiocarbonyl_group,integer,high,Presence of unwanted functionality: Thiocarbonyl group
+thioester,integer,high,Presence of unwanted functionality: thioester
+thiol_a,integer,high,Presence of unwanted functionality: thiol
+thiol_b,integer,high,Presence of unwanted functionality: thiol
+three_membered_heterocycle,integer,high,Presence of unwanted functionality: Three-membered heterocycle
+triflate,integer,high,Presence of unwanted functionality: triflate
+triphenyl_methylsilyl,integer,high,Presence of unwanted functionality: triphenyl methylsilyl
+triple_bond,integer,high,Presence of unwanted functionality: triple bond
+n_hits,integer,high,Total number of unwanted functionalities matched out of 105

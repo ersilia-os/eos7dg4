@@ -2,44 +2,40 @@ Identifier: eos7dg4
 Slug: ntd-rule
 Status: In progress
 Title: NTD chemistry rules
-Description: The NTD Rule defined in Brenk et al, 2008 identifies 105 chemical 
-  substructures that are typically present in drugs targeting Neglected Tropical
-  Disease (NTDs). A condensed calculation of the NTD Rules as a single score is 
-  available in the ChemFH package (eos7ye0). This model here identifies with a 0
-  or 1 the absence/presence of each of the 105 chemical substructures.
+Description: The NTD Rule from Brenk et al. (2008) screens molecules against 105
+  SMARTS patterns representing unwanted functionalities identified when assembling
+  screening libraries for neglected tropical disease drug discovery. These include
+  reactive groups (aldehydes, acid halides, Michael acceptors), potentially toxic
+  groups (nitro compounds, heavy metals, polyhalogenated rings), assay-interfering
+  groups (catechols, quinones) and groups with poor ADME properties (long aliphatic
+  chains, perfluorinated chains). The model returns a binary flag for each of the
+  105 substructures and the total count of matched substructures (n_hits).
 Deployment:
   - Local
   - Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization,
-  Projection, Similarity search, Generation
+Source: Local
+Source Type: Replicated
+Task: Annotation
+Subtask: Property calculation or prediction
 Input:
   - Compound
 Input Dimension: 1
 Output:
   - Value
-  - Score
-  - Compound
-  - Text
-Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: The output of this template model should be interpreted like 
-  this.
+Output Dimension: 106
+Output Consistency: Fixed
+Interpretation: TBinary indicators (1 = substructure
+  present, 0 = absent) and total number of hits (n_hits).
 Tag:
-  - Chemical notation
   - Frequent hitter
   - Neglected tropical disease
 Biomedical Area:
-  - Biomedical Area 1
-  - Biomedical Area 2
+  - Any
 Target Organism:
-  - Target Organism 1
-  - Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
-Publication Year: 2026
-Publication: https://pubmed.ncbi.nlm.nih.gov/18064617/
-Source Code: https://github.com/jiacai0101/ChemFH
+  - Any
+Publication Type: Peer reviewed
+Publication Year: 2008
+Publication: https://doi.org/10.1002/cmdc.200700139
+Source Code: https://github.com/antwiser/ChemFH
 License: MIT
 Contributor: GemmaTuron
