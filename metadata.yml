@@ -1,33 +1,36 @@
-Identifier: eos0aaa
-Slug: template-model
+Identifier: eos7dg4
+Slug: ntd-rule
 Status: In progress
-Title: This is a template model
-Description: |
-  This is a description of the template model.
-  You can use multiple lines in this description.
+Title: NTD chemistry rules
+Description: The NTD Rule defined in Brenk et al, 2008 identifies 105 chemical 
+  substructures that are typically present in drugs targeting Neglected Tropical
+  Disease (NTDs). A condensed calculation of the NTD Rules as a single score is 
+  available in the ChemFH package (eos7ye0). This model here identifies with a 0
+  or 1 the absence/presence of each of the 105 chemical substructures.
 Deployment:
   - Local
   - Online
 Source: Local, Online
 Source Type: Internal, Replicated, External
 Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation
-Input: 
+Subtask: Property calculation or prediction, Activity prediction, Featurization,
+  Projection, Similarity search, Generation
+Input:
   - Compound
 Input Dimension: 1
-Output: 
+Output:
   - Value
   - Score
   - Compound
   - Text
 Output Dimension: 1
 Output Consistency: Fixed, Variable
-Interpretation: |
-  The output of this template model should be interpreted like this.
+Interpretation: The output of this template model should be interpreted like 
+  this.
 Tag:
-  - Tag 1
-  - Tag 2
-  - Tag 3
+  - Chemical notation
+  - Frequent hitter
+  - Neglected tropical disease
 Biomedical Area:
   - Biomedical Area 1
   - Biomedical Area 2
@@ -36,6 +39,7 @@ Target Organism:
   - Target Organism 2
 Publication Type: Peer reviewed, Preprint, Other
 Publication Year: 2026
-Publication: https://example.com
-Source Code: https://example.com
-License: GPL-3.0-or-later, MIT, Apache-2.0...
+Publication: https://pubmed.ncbi.nlm.nih.gov/18064617/
+Source Code: https://github.com/jiacai0101/ChemFH
+License: MIT
+Contributor: GemmaTuron
