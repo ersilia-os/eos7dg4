@@ -3,13 +3,14 @@ Slug: ntd-rule
 Status: In progress
 Title: NTD chemistry rules
 Description: The NTD Rule from Brenk et al. (2008) screens molecules against 105
-  SMARTS patterns representing unwanted functionalities identified when assembling
-  screening libraries for neglected tropical disease drug discovery. These include
-  reactive groups (aldehydes, acid halides, Michael acceptors), potentially toxic
-  groups (nitro compounds, heavy metals, polyhalogenated rings), assay-interfering
-  groups (catechols, quinones) and groups with poor ADME properties (long aliphatic
-  chains, perfluorinated chains). The model returns a binary flag for each of the
-  105 substructures and the total count of matched substructures (n_hits).
+  SMARTS patterns representing unwanted functionalities identified when 
+  assembling screening libraries for neglected tropical disease drug discovery. 
+  These include reactive groups (aldehydes, acid halides, Michael acceptors), 
+  potentially toxic groups (nitro compounds, heavy metals, polyhalogenated 
+  rings), assay-interfering groups (catechols, quinones) and groups with poor 
+  ADME properties (long aliphatic chains, perfluorinated chains). The model 
+  returns a binary flag for each of the 105 substructures and the total count of
+  matched substructures (n_hits).
 Deployment:
   - Local
   - Online
@@ -24,8 +25,8 @@ Output:
   - Value
 Output Dimension: 106
 Output Consistency: Fixed
-Interpretation: TBinary indicators (1 = substructure
-  present, 0 = absent) and total number of hits (n_hits).
+Interpretation: TBinary indicators (1 = substructure present, 0 = absent) and 
+  total number of hits (n_hits).
 Tag:
   - Frequent hitter
   - Neglected tropical disease
@@ -39,3 +40,4 @@ Publication: https://doi.org/10.1002/cmdc.200700139
 Source Code: https://github.com/antwiser/ChemFH
 License: MIT
 Contributor: GemmaTuron
+Incorporation Date: '2026-06-02'
