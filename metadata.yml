@@ -14,7 +14,7 @@ Deployment:
   - Local
   - Online
 Source: Local
-Source Type: Replicated
+Source Type: External
 Task: Annotation
 Subtask: Property calculation or prediction
 Input:
