@@ -2,7 +2,14 @@ Identifier: eos7dg4
 Slug: ntd-rule
 Status: In progress
 Title: NTD chemistry rules
-Description: The NTD Rule (Brenk et al., 2008) screens molecules against 105 SMARTS patterns representing unwanted functionalities for neglected tropical disease drug discovery. These include reactive groups (aldehydes, acid halides, Michael acceptors), potentially toxic groups (nitro compounds, heavy metals, polyhalogenated rings), assay-interfering groups (catechols, quinones), and groups with poor ADME properties (long aliphatic chains, perfluorinated chains). Returns a binary flag per substructure and total matched count (n_hits).
+Description: The NTD Rule (Brenk et al., 2008) screens molecules against 105 
+  SMARTS patterns representing unwanted functionalities for neglected tropical 
+  disease drug discovery. These include reactive groups (aldehydes, acid 
+  halides, Michael acceptors), potentially toxic groups (nitro compounds, heavy 
+  metals, polyhalogenated rings), assay-interfering groups (catechols, 
+  quinones), and groups with poor ADME properties (long aliphatic chains, 
+  perfluorinated chains). Returns a binary flag per substructure and total 
+  matched count (n_hits).
 Deployment:
   - Local
   - Online
