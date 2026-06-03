@@ -44,8 +44,11 @@ _10 of 106 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1`
+- **Environment Size (Mb):** `514`
 
 
 ### References
