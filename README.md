@@ -50,12 +50,12 @@ _10 of 106 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `514`
-- **Image Size (Mb):** `529.92`
+- **Image Size (Mb):** `529.93`
 
 **Computational Performance (seconds):**
-- 10 inputs: `36.17`
-- 100 inputs: `21.13`
-- 10000 inputs: `37.64`
+- 10 inputs: `30.47`
+- 100 inputs: `21.37`
+- 10000 inputs: `40.07`
 
 ### References
 - **Source Code**: [https://github.com/antwiser/ChemFH](https://github.com/antwiser/ChemFH)
