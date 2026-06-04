@@ -2,8 +2,7 @@
 
 The NTD Rule (Brenk et al., 2008) screens molecules against 105 SMARTS patterns representing unwanted functionalities for neglected tropical disease drug discovery. These include reactive groups (aldehydes, acid halides, Michael acceptors), potentially toxic groups (nitro compounds, heavy metals, polyhalogenated rings), assay-interfering groups (catechols, quinones), and groups with poor ADME properties (long aliphatic chains, perfluorinated chains). Returns a binary flag per substructure and total matched count (n\_hits).
 
-This model was incorporated on 2026-06-02.
-
+This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 
 ## Information
 ### Identifiers
@@ -44,12 +43,19 @@ _10 of 106 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos7dg4](https://hub.docker.com/r/ersiliaos/eos7dg4)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `514`
+- **Image Size (Mb):** `529.92`
 
+**Computational Performance (seconds):**
+- 10 inputs: `36.17`
+- 100 inputs: `21.13`
+- 10000 inputs: `37.64`
 
 ### References
 - **Source Code**: [https://github.com/antwiser/ChemFH](https://github.com/antwiser/ChemFH)
