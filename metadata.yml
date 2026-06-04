@@ -1,6 +1,6 @@
 Identifier: eos7dg4
 Slug: ntd-rule
-Status: In progress
+Status: Ready
 Title: NTD chemistry rules
 Description: The NTD Rule (Brenk et al., 2008) screens molecules against 105 
   SMARTS patterns representing unwanted functionalities for neglected tropical 
@@ -40,6 +40,18 @@ Source Code: https://github.com/antwiser/ChemFH
 License: MIT
 Contributor: GemmaTuron
 Incorporation Date: '2026-06-02'
+Last Packaging Date: '2026-06-04'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos7dg4
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1.0
 Environment Size: 514.0
+Image Size: 529.92
+Computational Performance 1: 36.17
+Computational Performance 2: 19.05
+Computational Performance 3: 21.13
+Computational Performance 4: 24.37
+Computational Performance 5: 37.64
