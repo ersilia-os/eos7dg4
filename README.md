@@ -1,6 +1,6 @@
 # NTD chemistry rules
 
-The NTD Rule (Brenk et al., 2008) screens molecules against 105 SMARTS patterns representing unwanted functionalities for neglected tropical disease drug discovery. These include reactive groups (aldehydes, acid halides, Michael acceptors), potentially toxic groups (nitro compounds, heavy metals, polyhalogenated rings), assay-interfering groups (catechols, quinones), and groups with poor ADME properties (long aliphatic chains, perfluorinated chains). Returns a binary flag per substructure and total matched count (n\_hits).
+Screens a molecule against 105 substructure patterns flagging functionality unwanted in neglected tropical disease programmes, among them reactive groups, Michael acceptors, unstable moieties and motifs known to interfere with assays. The rules were compiled by Brenk and colleagues specifically for resource-limited discovery settings, where following up an artefact is especially costly. Flags mark recognised liabilities rather than measured problems, and legitimate drugs occasionally contain them.
 
 This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 ### Output
 - **Output Dimension:** `106`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** TBinary indicators (1 = substructure present, 0 = absent) and total number of hits (n_hits).
+- **Interpretation:** Binary flags for 105 unwanted substructures and the total number of matches.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
