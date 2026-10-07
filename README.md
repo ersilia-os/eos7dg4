@@ -1,6 +1,6 @@
 # NTD chemistry rules
 
-Screens a molecule against 105 substructure patterns flagging functionality unwanted in neglected tropical disease programmes, among them reactive groups, Michael acceptors, unstable moieties and motifs known to interfere with assays. The rules were compiled by Brenk and colleagues specifically for resource-limited discovery settings, where following up an artefact is especially costly. Flags mark recognised liabilities rather than measured problems, and legitimate drugs occasionally contain them.
+Screens a molecule against the 105 SMARTS patterns Brenk and colleagues defined as unwanted when assembling screening libraries for neglected disease drug discovery on an academic budget. The set spans reactive groups such as aldehydes, acid halides and Michael acceptors, potentially toxic motifs including nitro groups, heavy metals and polyhalogenated rings, assay interferers such as catechols and quinones, and poor-ADME liabilities like long aliphatic or perfluorinated chains. A flag marks a recognised liability rather than a measured problem, and approved drugs sometimes carry one.
 
 This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 
