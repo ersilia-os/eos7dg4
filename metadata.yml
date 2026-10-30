@@ -2,14 +2,15 @@ Identifier: eos7dg4
 Slug: ntd-rule
 Status: Ready
 Title: NTD chemistry rules
-Description: Screens a molecule against the 105 SMARTS patterns Brenk and colleagues
-  defined as unwanted when assembling screening libraries for neglected disease drug
-  discovery on an academic budget. The set spans reactive groups such as aldehydes,
-  acid halides and Michael acceptors, potentially toxic motifs including nitro groups,
-  heavy metals and polyhalogenated rings, assay interferers such as catechols and
-  quinones, and poor-ADME liabilities like long aliphatic or perfluorinated chains.
-  A flag marks a recognised liability rather than a measured problem, and approved
-  drugs sometimes carry one.
+Description: Screens a molecule against the 105 SMARTS patterns Brenk and 
+  colleagues defined as unwanted when assembling screening libraries for 
+  neglected disease drug discovery on an academic budget. The set spans reactive
+  groups such as aldehydes, acid halides and Michael acceptors, potentially 
+  toxic motifs including nitro groups, heavy metals and polyhalogenated rings, 
+  assay interferers such as catechols and quinones, and poor-ADME liabilities 
+  like long aliphatic or perfluorinated chains. A flag marks a recognised 
+  liability rather than a measured problem, and approved drugs sometimes carry 
+  one.
 Deployment:
   - Local
   - Online
@@ -24,8 +25,8 @@ Output:
   - Value
 Output Dimension: 106
 Output Consistency: Fixed
-Interpretation: Binary flags for 105 unwanted substructures and the total number of
-  matches.
+Interpretation: Binary flags for 105 unwanted substructures and the total number
+  of matches.
 Tag:
   - Frequent hitter
   - Neglected tropical disease
@@ -41,7 +42,7 @@ License: MIT
 Contributor: GemmaTuron
 Incorporation Date: '2026-06-02'
 Last Packaging Date: '2026-06-04'
-Release: v1.0.0
+Release: v1.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos7dg4
 Docker Architecture:
