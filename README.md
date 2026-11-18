@@ -2,7 +2,8 @@
 
 Screens a molecule against the 105 SMARTS patterns Brenk and colleagues defined as unwanted when assembling screening libraries for neglected disease drug discovery on an academic budget. The set spans reactive groups such as aldehydes, acid halides and Michael acceptors, potentially toxic motifs including nitro groups, heavy metals and polyhalogenated rings, assay interferers such as catechols and quinones, and poor-ADME liabilities like long aliphatic or perfluorinated chains. A flag marks a recognised liability rather than a measured problem, and approved drugs sometimes carry one.
 
-This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
+This model was incorporated on 2026-06-02.
+Last packaged on 2026-06-04.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 106 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos7dg4](https://hub.docker.com/r/ersiliaos/eos7dg4)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7dg4.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos7dg4_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos7dg4_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
